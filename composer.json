@@ -1,0 +1,38 @@
+{
+    "name": "bogachevskes/yii2-app-basic",
+    "description": "Yii2 базовый шаблон проекта обучения",
+    "homepage": "https://digital-solutions.efko.ru",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Andrey Bogachevskiy",
+            "email": "bogachevskes@yandex.ru",
+            "homepage": "https://github.com/bogachevskes"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.45",
+        "yiisoft/yii2-bootstrap5": "~2.0.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer" : true
+        },
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.0"
+    }
+}
